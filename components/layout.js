@@ -30,20 +30,29 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p>
+              Hello, I'm Jorge. I'm a student at the BYU-I and I'm studying
+              Applied Technology. You can know more about me on my <Link
+                href="https://www.linkedin.com/in/jorge-chavez-ponce/"
+                target="_blank"
+              >
+                 Linkedin
+              </Link>
+            </p>
           </>
         ) : (
           <>
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/profile.jpeg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
