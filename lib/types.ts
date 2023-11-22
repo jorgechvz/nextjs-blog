@@ -26,4 +26,11 @@ export type PostPropsType = {
 export type LayoutProps = {
   children: React.ReactNode;
   home?: boolean;
+};
+
+export type PostHomeType = {
+  id: string;
+  date: string;
+  title: string;
 }
+
